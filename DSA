@@ -75,3 +75,33 @@ Recursion	          -          A programming technique where a function calls it
 Divide and Conquer	  -          A method of solving complex problems by breaking them into smaller, more manageable sub-problems, solving the sub-problems, and combining the solutions. Recursion is often used when using this method in an algorithm.
 Brute Force	          -          A simple and straight forward way an algorithm can work by simply trying all possible solutions and then choosing the best one.
 
+
+
+Day-2
+
+A Simple Algorithm
+
+# Fibonacci Numbers
+
+The Fibonacci numbers are very usefule for introducing algorithms, so before we continue, here is a short introduction to fabonacci numbers.
+The Fibonacci numbers are named after a 13th century Italian mathematician known as Fibonacci.
+The two first Fibonacci numbers are 0 and 1, and the next Fibonacci number is always the sum of the two previous numbers, so we get 0,1,2,3,5,8,13,21,...
+This tutorial will use loop and recursion a lot. so before we continue, let's implement three different versions of the algorithm to create Fibonacci numbers, just to see the difference between programming with loops and programming with recursion in a simple way.
+
+# The Fibonacci Number Algorithm
+
+To generate a Fibonacci number, all we need to do is to add the two previous Fibonacci numbers.
+The Fibonacci numbers is a good way of demonstrating what an algorithm is.
+We know the principle of how to find the next number, so we can write an algorithm to create as many Fibonacci numbers as possible.
+
+> Below is the algorithm to create the 20 first Fibonacci numbers:
+
+How it works:
+  1. Start with the two first Fibonacci numbers 0 and 1.
+    a. Add the two previous numbers together to create a new Fibonacci number.
+    b. Update the value of the two previous numbers.
+  2. Do point a and b above 18 times.
+
+# Loop vs Recursion
+
+
